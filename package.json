@@ -1,17 +1,13 @@
 {
   "name": "basicnode",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Hello World Azure Function",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests to run\"",
-    "start": "node server.js"
+    "start": "func start",
+    "test": "echo \"No tests to run\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^4.21.2"
+    "@azure/functions": "^4.0.0"
   }
 }
